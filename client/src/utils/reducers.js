@@ -17,7 +17,7 @@ const starterState = {
   categories: [],
   currentCategory: '',
 }
- export default reducer = (state = starterState, action) => {
+ export default (state = starterState, action) => {
   switch (action.type) {
     case UPDATE_PRODUCTS:
       return {
